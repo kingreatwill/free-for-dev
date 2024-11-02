@@ -14,10 +14,11 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v4
-      - name: npm run build
+      - name: setup node
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
+      - run: npm install
       - run: npm run build
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
