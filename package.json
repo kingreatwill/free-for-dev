@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'free-for-dev.wcoder.com' > ./out/CNAME"
+    "static": "next build && touch ./out/.nojekyll && echo 'free-for-dev.wcoder.com' > ./out/CNAME"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
