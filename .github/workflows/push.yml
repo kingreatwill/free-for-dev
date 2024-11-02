@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: "lts/*"
       - run: npm install
-      - run: npm run build
+      - run: npm run static
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
