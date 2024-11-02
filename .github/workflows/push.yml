@@ -1,0 +1,27 @@
+name: Push GitHub Pages
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+  contents: write
+  repository-projects: write
+jobs:
+  Push_GitHub_Pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v4
+      - name: npm run build
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages-test
+          build_dir: out
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
