@@ -36,6 +36,18 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## GitHub Pages
+
+
+
+```
+npm install
+npm run static
+```
+> "static": "next build && touch ./out/.nojekyll && echo 'free-for-dev.wcoder.com' > ./out/CNAME"
+> _next对于github来说是隐藏目录, 需要添加.nojekyll文件
+> 如果需要cname, 可以输出CNAME文件
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
