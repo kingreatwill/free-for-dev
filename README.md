@@ -14,7 +14,7 @@ This project is to convert the list into a mind map for easier viewing in an out
 
 More Templates: [EdgeOne Pages](https://edgeone.ai/pages/templates)
 
-Live Demo: https://free-for-dev.edgeone.app
+Live Demo: https://free-for-dev.wcoder.com/
 
 ## Getting Started
 
@@ -44,8 +44,11 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 npm install
 npm run static
 ```
+
 > "static": "next build && touch ./out/.nojekyll && echo 'free-for-dev.wcoder.com' > ./out/CNAME"
+> 
 > _next对于github来说是隐藏目录, 需要添加.nojekyll文件
+> 
 > 如果需要cname, 可以输出CNAME文件
 
 ## Learn More
