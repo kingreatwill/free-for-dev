@@ -14,7 +14,7 @@ const datas: StatementItem[] = [
         <p>
           This website originates from the{' '}
           <a
-            href="https://github.com/ripienaar/free-for-dev"
+            href="https://github.com/kingreatwill/free-for-dev"
             target="_blank"
             className="font-medium underline text-primary underline-offset-4"
           >
@@ -24,17 +24,11 @@ const datas: StatementItem[] = [
           software (SaaS, PaaS, IaaS, etc.). This project converts the large
           markdown file into an interactive mind map for quick searching and
           filtering. This webpage is hosted on{' '}
-          <a
-            href="https://edgeone.ai/products/pages"
-            target="_blank"
-            className="text-blue-500 underline hover:text-blue-700"
-          >
-            EdgeOne Pages
-          </a>
+          Github Pages
           , a free global acceleration static website hosting service. This
           webpage is open source on{' '}
           <a
-            href="https://github.com/TencentEdgeOne/pages-templates/tree/main/examples/free-for-dev"
+            href="https://github.com/kingreatwill/free-for-dev"
             target="_blank"
             className="font-medium underline text-primary underline-offset-4"
           >
