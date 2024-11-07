@@ -12,6 +12,8 @@ This project is to convert the list into a mind map for easier viewing in an out
 
 [![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?from=github&template=free-for-dev)
 
+[国际站](https://www.tencentcloud.com/)
+
 More Templates: [EdgeOne Pages](https://edgeone.ai/pages/templates)
 
 Live Demo: https://free-for-dev.wcoder.com/
